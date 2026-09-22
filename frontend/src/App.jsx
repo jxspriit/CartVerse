@@ -25,7 +25,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import AdressForm from "./pages/AdressForm";
 import Wishlist from "./pages/Wishlist"
 
-export const serverURL = "http://localhost:5000";
+export const serverURL = "https://cartverse-9t2p.onrender.com/";
 
 const router = createBrowserRouter([
 

@@ -18,7 +18,7 @@ export const VerifyEmail = async (token, email) => {
     console.log("📨 Sending email to:", email);
 
     const verificationLink =
-      `http://localhost:5173/verify/${token}`;
+      `https://cartverse-jade.vercel.app//verify/${token}`;
 
     console.log("🔗 Verification link:", verificationLink);
 
